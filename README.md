@@ -47,8 +47,8 @@ $ sudo pip install ansible==1.9.4 --quiet
 $ ansible-playbook local/local.yml -i local/HOSTS --ask-sudo-pass
 ```
 
-**Add your SSH public key to the finansible repo:**
+**Add your SSH public key to the deploy-mac repo:**
 
-1. Ask a DevOps person to put your SSH key file and path into deploy-mac.
+1. Put your SSH key file and path into deploy-mac.
 
 **Finally, restart your shell** to load new environment variables.
